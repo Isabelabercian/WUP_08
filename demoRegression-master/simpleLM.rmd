@@ -48,6 +48,6 @@ summary.lm(mHEADWTH)
 ```
 
 Now, in order from best to worst according to RSE: 
-1. WEIGHT explained by NECK at 43.91
-2. WEIGHT explained by HEADLEN at 67.81
-3. WEIGHT explained by HEADWTH at 76.41
+1. WEIGHT explained by NECK at 43.91  
+2. WEIGHT explained by HEADLEN at 67.81  
+3. WEIGHT explained by HEADWTH at 76.41  
