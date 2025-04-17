@@ -51,3 +51,18 @@ Now, in order from best to worst according to RSE:
 1. WEIGHT explained by NECK at 43.91  
 2. WEIGHT explained by HEADLEN at 67.81  
 3. WEIGHT explained by HEADWTH at 76.41  
+
+```{r}
+mLENGTH <- lm(WEIGHT~LENGTH,data=bears)
+plot(WEIGHT~LENGTH,data=bears)
+abline(mLENGTH)
+summary.lm(mLENGTH)
+```
+
+
+Now, in order from best to worst according to RSE:  
+1. WEIGHT explained by NECK at 43.91  
+2. WEIGTH explained by LENGTH at 61.83  
+3. WEIGHT explained by HEADLEN at 67.81  
+4. WEIGHT explained by HEADWTH at 76.41  
+ 
