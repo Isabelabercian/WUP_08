@@ -39,3 +39,15 @@ summary.lm(mHEADLEN)
 ```
 
 The residual standard error is 43.91 and our adjusted R-squared is 0.69. With this much data, the data models in order from best to first are WEIGHT explained by NECK, followed by WEIGHT explained by HEADLEN.
+
+```{r}
+mHEADWTH <- lm(WEIGHT~HEADWTH,data=bears)
+plot(WEIGHT~HEADWTH,data=bears)
+abline(mHEADLEN)
+summary.lm(mHEADWTH)
+```
+
+Now, in order from best to worst according to RSE: 
+1. WEIGHT explained by NECK at 43.91
+2. WEIGHT explained by HEADLEN at 67.81
+3. WEIGHT explained by HEADWTH at 76.41
